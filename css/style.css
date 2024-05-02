@@ -1,0 +1,140 @@
+body {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+@font-face {
+    font-family: 'FromtheWoods';
+    src: url('../font/FromtheWoods-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+a {
+    color: #D3D3D3;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+section.main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 70%;
+    align-items: center;
+}
+
+section.main > div {
+    display: flex;
+    flex-direction: row;
+    flex-flow: column;
+
+}
+
+section.main .main__header {
+    margin: 3rem 0 3rem 0;
+    max-width: 70%;
+}
+
+section.main .main__header h1 {
+    font-size: 10rem;
+    font-family: 'FromtheWoods', sans-serif;;
+    font-weight: 900;
+    margin-bottom: 3rem;
+    margin-top: 0rem;
+}
+
+section.main .main__header p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 0rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+section.main .main__middle {
+    margin: 0;
+    display: flexbox;
+    flex-direction: row;
+    align-items: center;
+    max-width: 70%;
+
+}
+
+section.main .main__middle__left {
+    flex: 2;
+    margin: 0;
+    width: 50%;   
+}
+
+section.main .main__middle__right {
+    flex: 1;
+    width: 50%;
+}
+
+section.main .middle__box {
+    display: flex;
+    flex-direction: column;
+    border-radius: 50%;
+    background-color: #4F6A13;
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    padding: 4em;
+    margin: 3rem 0 3rem 0;
+}
+
+section.main .middle__box img {
+    width: 100px;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+section.main .middle__box h3 {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #D3D3D3;
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+section.main .middle__box p {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #D3D3D3;
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+section.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em 25% 5em 20%;
+    max-width: 100%;
+    margin-top: 3rem;
+    text-align: center;
+    background-color: #2D4823;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section.footer h2 {
+    font-size: 2rem;
+    color: #D3D3D3;
+}
+
+section.footer p {
+    font-size: 1.5rem;
+    color: #D3D3D3;
+}
